@@ -1,0 +1,53 @@
+Graph
+
+5
+
+# Graph data courtesy Carol Zander
+
+node "Aurora and 85th"
+
+node "Green Lake Starbucks"
+
+node "Woodland Park Zoo"
+
+node "Troll under bridge"
+
+node PCC
+
+
+# Weighted Arcs
+
+weighted_arc 1 2 50
+
+weighted_arc 1 3 20
+
+weighted_arc 1 5 30
+
+weighted_arc 2 4 10
+
+weighted_arc 3 2 20
+
+weighted_arc 3 4 40
+
+weighted_arc 5 2 20
+
+weighted_arc 5 4 25
+
+
+# Node positions
+
+node_pos 1  0 0
+
+node_pos 2  2 0
+
+node_pos 3  0 -2
+
+node_pos 4  2 -2
+
+node_pos 5  1 1
+
+
+# Arc positions
+
+arc_point 5 4  2.5 -0.5
+
